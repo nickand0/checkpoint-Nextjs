@@ -87,7 +87,7 @@ export default function Projects() {
                                                 alt={project.title}
                                                 width={350}
                                                 height={250}
-                                                className="rounded-md object-cover w-full md:w-auto"
+                                                className="rounded-md object-cover "
                                             />
                                         </div>
 

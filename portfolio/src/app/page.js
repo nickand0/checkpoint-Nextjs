@@ -44,7 +44,7 @@ export default function Home() {
             height={350} 
             src="/Images/IMG_1314.png" 
             alt="ma photo de profil"
-            className="mx-auto md:mx-0 border-[5px] p-1 rounded-tl-[150px] rounded-br-[150px] border-t-blue-300 border-l-blue-300 border-b-blue-600 border-r-blue-600 bg-gradient-to-r from-sky-400 to-black shadow-xl hover:rounded-tr-[150px] hover:rounded-tl-none hover:rounded-bl-[150px] hover:rounded-br-none transition duration-500 hover:translate-x-5 w-[300px] md:w-auto my-10 md:my-0"
+            className="mx-auto md:mx-0 border-[5px] p-1 rounded-tl-[150px] rounded-br-[150px] border-t-blue-300 border-l-blue-300 border-b-blue-600 border-r-blue-600 bg-gradient-to-r from-sky-400 to-black shadow-xl hover:rounded-tr-[150px] hover:rounded-tl-none hover:rounded-bl-[150px] hover:rounded-br-none transition duration-500 hover:translate-x-5 w-[300px]  my-10 md:my-0"
           />
         </div>
       </main>
