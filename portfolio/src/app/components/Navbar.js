@@ -21,7 +21,7 @@ export default function Navbar() {
             </div>
             
             {/* Menu large écran */}
-            <ul className={`flex-col  md:flex-row absolute md:static bg-slate-600 w-full md:w-auto transition-all duration-500 ease-in ${navOpen ? 'top-16 left-0 flex' : 'hidden'} md:flex justify-center text-md items-center md:space-x-8`}>
+            <ul className={`flex-col  md:flex-row absolute md:static bg-slate-600 w-full md:w-auto transition-all duration-500 ease-in ${navOpen ? 'top-16 left-0 flex z-50' : 'hidden'} md:flex justify-center text-md items-center md:space-x-8`}>
                 <li className="w-full text-center md:w-auto">
                     <Link href="/" className="text-white hover:bg-blue-400 w-full md:w-auto block rounded-[10px]  py-2 px-2 lg:px-10 transition duration-500">
                         Home
