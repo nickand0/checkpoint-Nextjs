@@ -25,7 +25,7 @@ export default function About() {
   return (
     <div className='min-h-screen flex flex-col'>
       <Navbar />
-      <div className=" md:h-[83vh] bg-gray-100 py-10 h-">
+      <div className=" md:h-[83vh]  py-10 h-">
         <div className="container mx-auto px-4">
           {/* Services Section */}
           <section className="md:mt-32 mb-12 flex flex-col md:flex-row justify-around items-start mt-10 overflow-hidden">
@@ -34,7 +34,7 @@ export default function About() {
               <p className='text-gray-800'>
                 Software Developer with expertise in building modern, scalable, and high-performance web applications. I enjoy solving complex problems with innovative and reliable solutions.
               </p>
-              <div className='mt-10 w-40 md:w-52 text-white text-center px-6 py-3 md:px-10 md:py-4 rounded-full font-bold bg-gradient-to-bl from-sky-500 to-black border hover:scale-[1.1] transition duration-700 hover:bg-none hover:text-gray-600 shadow-md mx-auto md:mx-0'>
+              <div className='mt-10 w-40 md:w-52 border-black hover:text-white text-center px-6 py-3 md:px-10 md:py-4 rounded-full font-bold hover:bg-gradient-to-bl hover:from-sky-500 hover:to-black border hover:scale-[1.1] transition duration-700  text-gray-600 shadow-md mx-auto md:mx-0'>
                 <a href='/contact'>Contact Me</a>
               </div>
             </div>

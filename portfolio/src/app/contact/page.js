@@ -48,7 +48,7 @@ export default function Contact() {
     return (
         <div className='h-full'>
             <Navbar />
-            <div className="h-[80vh] md:h-[83vh] bg-gray-100 py-0 md:py-10 flex flex-col justify-center items-center">
+            <div className="h-[80vh] md:h-[83vh]  py-0 md:py-10 flex flex-col justify-center items-center">
                 <div className="container mx-auto px-4">
                     <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">Contact<span className='text-blue-300'> Me</span></h1>
                     

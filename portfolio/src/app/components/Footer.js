@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-600 text-white py-6">
+    <footer className="bg-gradient-to-t from-slate-500  p-5">
       <div className="container mx-auto text-center flex flex-col md:flex-row justify-center items-center gap-6 md:gap-28">
         <p className="mb-4 md:mb-0">© 2024 Mon Portfolio. Tous droits réservés.</p>
         
